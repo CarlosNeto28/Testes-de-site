@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+
+}
+body{
+color: black;
+background-image: linear-gradient(to right, #5C0504, #DB0C09,#5C0504 );
+font-size: 100%;
+}
+.cabecalho{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+.menu{
+
+display: flex;
+gap: 60px;
+
+}
+.item{
+padding-left: 30px;
+text-decoration: none;
+color: black;
+}
+.conteudo{
+border-top: 1px black solid  ;
+padding: 20px;
+}
+.menu-conteudo{
+    position: relative;
+    
+}
+.titulo{
+
+    font-size:80px;
+    border-bottom: 4px #5C0504 solid;
+    display: inline;
+
+}
+.conteudo-principal{
+    position: relative;
+    top: 100px;
+    width: 300px;
+}
+
+.conteudo-secundario{
+
+position: relative;
+top: 300px;
+font-size: 80px;
+display: flex;
+flex-direction: row;
+gap: 20px;
+justify-content: space-evenly  ;
+border-top: 1px solid black;
+padding: 20px;
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.showcase{
+display: flex;
+width: 400px;
+height: 300px;
+background-repeat: no-repeat;
+background-size: cover ;
+opacity: 0.5;
+transition: opacity .2s linear;
+align-items: flex-end ;
+justify-content: center;
+
+box-sizing: border-box;
+
+
+}
+.gojo{
+
+    background-image: url(./imagens/gojo.jpg);
+
+}
+.saitama{
+
+    background-image: url(./imagens/saitama.jpg);
+
+}
+.miles{
+
+background-image: url(./imagens/miles.jpg);
+
+}
+
+.spidey{
+
+    background-image: url(./imagens/spiderman.jpg);
+}
+
+.batman{
+
+    background-image: url(./imagens/batman.jpg);
+}
+
+.luffy{
+
+    background-image: url(./imagens/luffy.jpg);
+
+}
+
+.showcase:hover{
+    opacity: 0.7;
+    border-radius: 20px 20px 20px 20px;
+}
+
+
+.showcase-text{
+    background-color: white;
+    width: 400px;
+    height: 60px;
+    color: #5C0504;
+    font-size: 20px;
+    text-align: center;
+    
+   border-radius: 0px 0px 20px 20px;
+    padding: 10px;
+    opacity: 0;
+
+
+}
+.showcase-text:hover{
+
+    opacity: 1;
+}
+.final{
+
+    display: flex;
+    align-content: flex-end;
+    justify-content: flex-end;
+   position: relative;
+    top: 300px;
+    color: azure;
+    padding-right: 15px;
+}
+
